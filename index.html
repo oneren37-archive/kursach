@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <main>
+            <div class="top-container">
+                <h1>Доступные игры</h1>
+                <div class="user">
+                    <div class="login">
+                        Вы вошли как <span id="username">Миша</span></br>
+                        <a href="./pages/rating/index.html"> К рейтингу -></a></br>
+                        <a href="./pages/auth/index.html"> Выйти -></a>
+                    </div>
+                </div>
+            </div>
+            <div class="games-container">
+                <a href="./pages/words/index.html" class="game-card">
+                    <div class="game-card__img"><img src="./img/oneren_connect_pairs_of_words_game_79a2d12a-dce6-4994-baf1-0b2663c4c915.png" alt=""></div>
+                    <div class="game-card__title">
+                        <h2>Сопоставить слова</h2>
+                    </div>
+                </a>
+                <a href="./pages/path/levels.html" class="game-card">
+                    <div class="game-card__img"><img src="./img/oneren_find_path_game_0045b2f9-099d-4fe0-a00f-7c0bd3a041a1.png" alt=""></div>
+                    <div class="game-card__title">
+                        <h2>Найти путь</h2>
+                    </div>
+                </a>
+                <a href="./pages/heaps/index.html" class="game-card">
+                    <div class="game-card__img"><img src="./img/oneren_heaps_of_words_game_2229b1a5-1714-45d2-8af3-2c3f920eee3f.png" alt=""></div>
+                    <div class="game-card__title">
+                        <h2>Разложить по кучкам</h2>
+                    </div>
+                </a>
+            </div>
+        </main>
+    </div>
+    <script src='./main.js'></script>
+</body>
+</html>

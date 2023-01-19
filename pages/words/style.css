@@ -1,0 +1,48 @@
+.game-wrapper_words {
+    background: url("./img/oneren_abstrart_words_background_f27c1ec7-a787-436f-b34b-3aa8cf86633c.png");
+    background-size: cover
+}
+
+a {
+    color: white;
+}
+
+main {
+    min-height: 500px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    color: white
+}
+
+.word {
+    padding: 10px;
+    margin: 20px;
+
+    transition: 0.1s;
+
+    background-size: cover;
+    background-image: url("./img/oneren_dark_female_demon_c997b3d8-519a-4e38-9626-d2d32b4ba97a.png");
+
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.word > span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+
+    position: absolute;
+    left: -20px;
+    bottom: -25px
+}
+

@@ -1,0 +1,36 @@
+.game-wrapper_path {
+    background-image: url("./img/oneren_path_in_magic_forest_fb043e69-587a-422a-9a3b-3dbbbf036a82.png");
+    background-size: cover;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.path-img {
+    width: 700px;
+    height: 600px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.right-bar,
+.left-bar,
+.path {
+    display: flex;
+    flex-direction: column;
+}
+
+.level {
+    font-size: 30px;
+
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}

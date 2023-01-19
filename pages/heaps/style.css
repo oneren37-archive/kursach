@@ -1,0 +1,53 @@
+.game-wrapper_heaps {
+    background-image: url("./img/oneren_the_letters_are_scattered_all_over_the_frame_b3b6b79c-0869-4964-8312-4d6a04fcc529.png");
+    background-size: cover;
+}
+
+.field {
+    width: 100%;
+    height: 400px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+
+    position: absolute;
+    cursor: pointer; 
+    will-change: filter; 
+    filter: drop-shadow(rgb(120, 120, 120) 0px 0px 0px); 
+
+    z-index: 50000;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+button {
+    font-size: 20px;
+
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    color: white;
+    cursor: pointer
+}

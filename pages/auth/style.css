@@ -1,0 +1,46 @@
+.main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games-container {
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    padding: 40px;
+
+    -webkit-box-shadow: 7px 9px 59px 17px rgba(184, 212, 233, 0.2);
+    -moz-box-shadow: 7px 9px 59px 17px rgba(184, 212, 233, 0.2);
+    box-shadow: 7px 9px 59px 17px rgba(184, 212, 233, 0.2);
+}
+
+
+input {
+    display: block;
+    
+    padding: 15px;
+    margin: 10px 0;
+
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.warning {
+    color: tomato;
+}
